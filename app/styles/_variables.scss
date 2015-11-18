@@ -1,0 +1,33 @@
+/* Color declarations
+================================ */
+$green              :green;
+$red                :#E83836;
+$blue               :blue;
+$yellow             :#E8E504;
+$darkGrey           :#333;
+
+/* Color assignments
+================================ */
+$greenBoxBg         :$green;
+$redBoxBg           :$red;
+$blueBoxBg          :$blue;
+$yellowBoxBg        :$yellow;
+$mainBG             :$darkGrey;
+
+/* Sizes
+================================ */
+
+$borderSize         :4px;
+
+/* Mixins
+================================ */
+@mixin colorBox($boxBG){
+    background-color: $boxBG;
+    position: relative;
+    border: 2px inset;
+    &.sounding{
+        background-color: lighten($boxBG, 10%);
+        box-shadow: 0 0 10px 6px white;
+        z-index: 100;
+    }
+}
