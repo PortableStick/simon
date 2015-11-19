@@ -5,41 +5,52 @@ function GameController(){
         isSounding: false,
         init: function(){
             $('.box').click(this.playerMakeSelection.bind(this));
-            this.newCompMove();
             this.playCompMoves();
         },
         playerMakeSelection: function(){
+            if(this.isSounding){
+                return;
+            }
             var currentId  = event.target.id;
             this.playerMoves.push(currentId);
-            console.log(this.playerMoves);
+            this.makeSound('#' + currentId);
+            if(this.checkLastMove()){
+                console.log("Incorrect!");
+            } else {
+                console.log("Correct!");
+            }
         },
-        playCompMoves: function(){ 
+        playCompMoves: function(counter){ 
             
-            var counter     = 0,
-                context     = this,
-                interval    = setInterval(function(){
-                    if(counter === context.compMoves.length){
-                        clearInterval(interval);
-                        context.isSounding = false;
-                        return;
-                    }
-                    context.isSounding  = true;
-                    var targetClass     = '#' + context.compMoves[counter];
-                    context.makeSound(targetClass);                    
-                    counter++;
-                },1000); 
+            var counter     = counter || 0,
+                currentPlay = this.compMoves[counter],
+                context     = this;
+                if(counter >= this.compMoves.length){
+                    return;
+                } else {
+                    this.makeSound('#' + currentPlay);
+                    setTimeout(function(){
+                        context.playCompMoves(counter + 1);
+                    }, 1000)
+                }
+                 
         },
         newCompMove: function(){
-            var newNum      = Math.floor(Math.random() * 4),
-                targetClass = '#' + newNum;
+            var newNum      = Math.floor(Math.random() * 4);
             this.compMoves.push(newNum);
-            this.makeSound(targetClass);
         },
         makeSound: function(targetClass){
            $(targetClass).addClass('sounding');
            setTimeout(function(){
-            $(targetClass).removeClass('sounding');
-           }, 1000);
-        }
+                $(targetClass).removeClass('sounding');
+           },600)
+        },
+        checkLastMove: function(){
+            var playerMovesLastIndex    = this.playerMoves.length;
+                console.log(playerMovesLastIndex);
+                if(this.compMoves[playerMovesLastIndex] !== this.playerMoves[playerMovesLastIndex]){
+                    return true;
+                }
+        }   
     }
 }

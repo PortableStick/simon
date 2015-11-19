@@ -26,22 +26,18 @@ body{
     &.green{
       @include colorBox($greenBoxBg);
       border-top-left-radius: 100%;
-      // border: $borderSize outset;
     }
     &.red{
       @include colorBox($redBoxBg);
       border-top-right-radius: 100%;
-      // border: $borderSize inset;
     }
     &.blue{
       @include colorBox($blueBoxBg);
       border-bottom-left-radius: 100%;
-      // border: $borderSize outset;
     }
     &.yellow{
       @include colorBox($yellowBoxBg);
       border-bottom-right-radius: 100%;
-      // border: $borderSize inset;
     }
   }
 }
