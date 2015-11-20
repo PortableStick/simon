@@ -4,40 +4,80 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 @import "variables";
+*{
+  webkit-user-select: none;
+  moz-user-select: none;
+  ms-user-select: none;
+  apple-user-select: none;
+  user-select:none;
+}
+
 body{
   background-color:$mainBG;
-}
-.container {
-  margin-top: 70px;
-  width: 400px;
-  height: 400px;
-  padding: 0;
-  div.box{
-    width: 200px;
-    height: 200px;
+
+  .container {
+    margin-top: 70px;
+    width: $containerDimension;
+    height: $containerDimension;
     padding: 0;
-    margin: 0;
-    &:first-child{
-      float: left;
+    position: relative;
+    div.center{
+      position: absolute;
+      height: $centerDimension;
+      width: $centerDimension;
+      top: $centerPosition;
+      left: $centerPosition;
+      z-index: 1000;
+      background-color: $centerBG;
+      padding: 40px;
+      border-radius: 100%;
+      text-align: center;
+      border: $borderSize double $centerBorderColor;
+      .title{
+        text-transform: uppercase;
+        @include fontFace($titleFace, 900);
+        font-size: $titleFontSize;
+      }
+      div.feedback{
+        background-color: $feedbackBG;
+        color: $feedbackFontColor;
+        border-radius: 5px;
+        width:$feedbackWidth;
+        height: $feedbackHeight;
+        font-size: $feedbackFontSize;
+        @include fontFace($digitalFace, 200);
+        text-transform: uppercase;
+        letter-spacing: $feedbackSpacing;
+        border: 2px inset $feedbackBorderColor;
+      }
     }
-    &:last-child{
-      float: right;
-    }
-    &.green{
-      @include colorBox($greenBoxBg);
-      border-top-left-radius: 100%;
-    }
-    &.red{
-      @include colorBox($redBoxBg);
-      border-top-right-radius: 100%;
-    }
-    &.blue{
-      @include colorBox($blueBoxBg);
-      border-bottom-left-radius: 100%;
-    }
-    &.yellow{
-      @include colorBox($yellowBoxBg);
-      border-bottom-right-radius: 100%;
+    div.box{
+      width: $buttonDimension;
+      height: $buttonDimension;
+      padding: 0;
+      margin: 0;
+      &:first-child{
+        float: left;
+      }
+      &:last-child{
+        float: right;
+      }
+      &.green{
+        @include colorBox($greenBoxBg);
+        border-top-left-radius: 100%;
+      }
+      &.red{
+        @include colorBox($redBoxBg);
+        border-top-right-radius: 100%;
+      }
+      &.blue{
+        @include colorBox($blueBoxBg);
+        border-bottom-left-radius: 100%;
+      }
+      &.yellow{
+        @include colorBox($yellowBoxBg);
+        border-bottom-right-radius: 100%;
+      }
     }
   }
 }

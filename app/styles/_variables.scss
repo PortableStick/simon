@@ -1,3 +1,9 @@
+/* Fonts    
+================================ */
+
+$digitalFace        :'VT323', ;
+$titleFace          :'Sarpanch', sans-serif;
+
 /* Color declarations
 ================================ */
 $green              :green;
@@ -5,6 +11,10 @@ $red                :#E83836;
 $blue               :blue;
 $yellow             :#E8E504;
 $darkGrey           :#333;
+$lightGrey          :#ddd;
+$almostBlack        :#111;
+$superDarkRed       :#400404;
+$brightRed          :#CC0D0C;
 
 /* Color assignments
 ================================ */
@@ -13,21 +23,43 @@ $redBoxBg           :$red;
 $blueBoxBg          :$blue;
 $yellowBoxBg        :$yellow;
 $mainBG             :$darkGrey;
+$centerBG           :$lightGrey;
+$feedbackBG         :$superDarkRed;
+$feedbackBorderColor:$almostBlack;
+$feedbackFontColor  :$brightRed;
+$centerBorderColor  :lighten($darkGrey, 30%);
 
 /* Sizes
 ================================ */
+$containerDimension :700px;
+$buttonDimension    :$containerDimension/2;
+$centerDimension    :$buttonDimension*(0.9);
+$borderSize         :5px;
+$feedbackWidth      :$centerDimension*0.7;
+$feedbackHeight     :1.8em;
+$titleFontSize      :4em;
+$feedbackFontSize   :2em;
+$feedbackSpacing    :0.2em; 
 
-$borderSize         :4px;
+/* Positions
+================================ */
+
+$centerPosition     :$buttonDimension - ($centerDimension/2);
 
 /* Mixins
 ================================ */
 @mixin colorBox($boxBG){
     background-color: $boxBG;
     position: relative;
-    border: 2px inset;
+    border: $borderSize inset;
     &.sounding{
         background-color: lighten($boxBG, 10%);
         box-shadow: 0 0 10px 6px white;
         z-index: 100;
     }
+}
+
+@mixin fontFace($font, $thickness: 300){
+    font-family: $font;
+    font-weight: $thickness;
 }
