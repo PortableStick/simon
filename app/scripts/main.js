@@ -15,7 +15,6 @@ function GameController(){
                 if($(this).is(':checked') == true){
                     context.strictMode = true;
                     $('.feedback').html("Strict on");
-                    console.log(context);
                 } else {
                     context.strictMode = false;
                     $('.feedback').html("Strict off");
@@ -47,14 +46,24 @@ function GameController(){
             this.makeSound('#' + currentId);
             $(".feedback").html(this.playerMoves.length + '/' + this.compMoves.length);
             if(this.checkLastMove() === true){
-                return;
+               if(this.strictMode === false){
+                    //try again
+                    this.playerMoves = [];
+                    setTimeout(this.playCompMoves.bind(this), 1500);
+                    $('.feedback').html("Try again!");
+                } else if(this.strictMode === true){
+                    $('.feedback').html("Game over!");
+                    setTimeout(this.reset.bind(this), 3000)
+                }
+            } else {
+                if(this.playerMoves.length === this.compMoves.length){
+                    this.playerHasMadeSelection = true;
+                    this.playerMoves = [];
+                    this.newCompMove();
+                    setTimeout(this.playCompMoves.bind(this), 1700);
+                }
             }
-            if(this.playerMoves.length === this.compMoves.length){
-                this.playerHasMadeSelection = true;
-                this.playerMoves = [];
-                this.newCompMove();
-                setTimeout(this.playCompMoves.bind(this), 1700);
-            }
+            
         },
         playCompMoves: function(counter){ 
             var counter         = counter || 0,
@@ -87,18 +96,7 @@ function GameController(){
         },
         checkLastMove: function(){
             var indexOfLastPlayerMove    = this.playerMoves.length - 1;
-                console.log(this);
                 if(this.compMoves[indexOfLastPlayerMove] != this.playerMoves[indexOfLastPlayerMove]) {
-                    if(this.strictMode === false){
-                        //try again
-                        this.playerMoves = [];
-                        setTimeout(this.playCompMoves.bind(this), 1000);
-                        $('.feedback').html("Try again!");
-                    } else if(this.strictMode === true){
-                        $('.feedback').html("Game over!");
-                        setTimeout(this.reset.bind(this), 3000)
-                    }
-                    
                     return true;
                 } 
         }   
