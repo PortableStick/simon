@@ -15,6 +15,7 @@ $lightGrey          :#ddd;
 $almostBlack        :#111;
 $superDarkRed       :#400404;
 $brightRed          :#CC0D0C;
+$greyGradient       :radial-gradient(ellipse, darken($lightGrey,30%) 0%,lighten($darkGrey, 10%) 100%); 
 
 /* Color assignments
 ================================ */
@@ -28,6 +29,8 @@ $feedbackBG         :$superDarkRed;
 $feedbackBorderColor:$almostBlack;
 $feedbackFontColor  :$brightRed;
 $centerBorderColor  :lighten($darkGrey, 30%);
+$checkboxColor      :$greyGradient;
+$strictModeColor    :$brightRed;
 
 /* Sizes
 ================================ */
@@ -40,6 +43,12 @@ $feedbackHeight     :1.8em;
 $titleFontSize      :4em;
 $feedbackFontSize   :2em;
 $feedbackSpacing    :0.2em; 
+
+$checkboxWidth      :$centerDimension*(0.5);
+$labelWidth         :$checkboxWidth*(0.49);
+$labelTravelDistance:$labelWidth;
+
+$startButtonWidth   :$checkboxWidth;
 
 /* Positions
 ================================ */

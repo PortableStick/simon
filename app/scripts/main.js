@@ -6,9 +6,21 @@ function GameController(){
         playerHasMadeSelection: false,
         playingTimer: null,
         isPlaying   : false,
+        strictMode  : false,
         init: function(){
+            var context = this;
             $('.box').click(this.playerMakeSelection.bind(this));            
             $('#start').html('Start').click(this.startGame.bind(this));
+            $('#strictMode').change(function(){
+                if($(this).is(':checked') == true){
+                    context.strictMode = true;
+                    $('.feedback').html("Strict on");
+                    console.log(context);
+                } else {
+                    context.strictMode = false;
+                    $('.feedback').html("Strict off");
+                }
+            });
         },
         reset: function(){
             if(this.playingTimer){
@@ -16,13 +28,13 @@ function GameController(){
             }
             this.compMoves      = [];
             this.playerMoves    = [];
-            $('.feedback').html('Ready?')
+            $('.feedback').html('Ready?');
             $('#start').html('Start').off().click(this.startGame.bind(this));
         },
         startGame: function(){
             this.isPlaying = true;
             this.newCompMove();
-            $('.feedback').html("Here we go!")
+            $('.feedback').html("Here we go!");
             $('#start').html('Reset').off().click(this.reset.bind(this));
             this.playingTimer = setTimeout(this.playCompMoves.bind(this), 1800);
         },
@@ -33,8 +45,10 @@ function GameController(){
             var currentId   = event.target.id;
             this.playerMoves.push(currentId);
             this.makeSound('#' + currentId);
-            $(".feedback").html(this.playerMoves.length + '/' + this.compMoves.length)
-            this.checkLastMove();
+            $(".feedback").html(this.playerMoves.length + '/' + this.compMoves.length);
+            if(this.checkLastMove() === true){
+                return;
+            }
             if(this.playerMoves.length === this.compMoves.length){
                 this.playerHasMadeSelection = true;
                 this.playerMoves = [];
@@ -56,7 +70,7 @@ function GameController(){
                     $('.feedback').html("Level " + this.compMoves.length);
                     setTimeout(function(){
                         context.playCompMoves(counter + 1);
-                    }, 1000)
+                    }, 1000);
                 }
         },
         newCompMove: function(){
@@ -69,17 +83,31 @@ function GameController(){
            setTimeout(function(){
                 $(targetId).removeClass('sounding');
                 this.sounding = false;
-           },600)
+           },600);
         },
         checkLastMove: function(){
             var indexOfLastPlayerMove    = this.playerMoves.length - 1;
-                
+                console.log(this);
                 if(this.compMoves[indexOfLastPlayerMove] != this.playerMoves[indexOfLastPlayerMove]) {
-                    //try again
-                    this.playerMoves = [];
-                    setTimeout(this.playCompMoves.bind(this), 1000);
-                    $('.feedback').html("Try again!");
+                    if(this.strictMode === false){
+                        //try again
+                        this.playerMoves = [];
+                        setTimeout(this.playCompMoves.bind(this), 1000);
+                        $('.feedback').html("Try again!");
+                    } else if(this.strictMode === true){
+                        $('.feedback').html("Game over!");
+                        setTimeout(this.reset.bind(this), 3000)
+                    }
+                    
+                    return true;
                 } 
         }   
     }
 }
+
+//TODO
+/*
+1.Style buttons
+2.Implement strict mode
+3.Make sounds
+*/
