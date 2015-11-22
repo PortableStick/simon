@@ -38,6 +38,7 @@ function GameController(){
             this.playingTimers = [];
         },
         reset: function(){
+            $('.box').removeClass('sounding');
             if(this.playingTimers.length > 0){
                 this.resetTimers();
             }
@@ -125,7 +126,6 @@ function GameController(){
         makeSound: function(targetId){
             this.sounding = true;
             $(targetId).addClass('sounding');
-            this.stopSounds();
             this.sounds[targetId].play();
             var timer = setTimeout(function(){
                 $(targetId).removeClass('sounding');
@@ -147,10 +147,3 @@ function GameController(){
         }   
     }
 }
-
-//TODO
-/*
-3.Make sounds
-4.Change colors to be a bit darker
-5.change timer based on current level
-*/
