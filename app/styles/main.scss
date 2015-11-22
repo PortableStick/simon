@@ -123,18 +123,22 @@ body{
       &.green{
         @include colorBox($greenBoxBg);
         border-top-left-radius: 100%;
+        border-top-style: solid;
       }
       &.red{
         @include colorBox($redBoxBg);
         border-top-right-radius: 100%;
+        border-top-style: solid;
       }
       &.blue{
         @include colorBox($blueBoxBg);
         border-bottom-left-radius: 100%;
+        border-left-style: solid;
       }
       &.yellow{
         @include colorBox($yellowBoxBg);
         border-bottom-right-radius: 100%;
+        border-right-style: solid;
       }
     }
   }
