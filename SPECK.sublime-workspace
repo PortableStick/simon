@@ -1,0 +1,1340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"reset",
+				"resetTimers"
+			],
+			[
+				"stop",
+				"stopSounds"
+			],
+			[
+				"targe",
+				"targetId"
+			],
+			[
+				"player",
+				"playerHasMadeSelection"
+			],
+			[
+				"comp",
+				"computerMovePlayTimer"
+			],
+			[
+				"sound",
+				"soundingTimer"
+			],
+			[
+				"strict",
+				"strictMode"
+			],
+			[
+				"stri",
+				"strictMode"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"web",
+				"webkit-transition"
+			],
+			[
+				"light",
+				"lightGrey"
+			],
+			[
+				"stric",
+				"strictModeCheckBox"
+			],
+			[
+				"plya",
+				"playingTimer"
+			],
+			[
+				"play",
+				"playingTimer"
+			],
+			[
+				"apple-user",
+				"apple-user-select"
+			],
+			[
+				"user-se",
+				"ms-user-select"
+			],
+			[
+				"user-select",
+				"webkit-user-select"
+			],
+			[
+				"fee",
+				"feedbackDimension"
+			],
+			[
+				"ligh",
+				"lightGrey"
+			],
+			[
+				"compMo",
+				"compMovesLength"
+			],
+			[
+				"border",
+				"borderSize"
+			],
+			[
+				"com",
+				"compMoves"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"current",
+				"currentMove"
+			],
+			[
+				"curren",
+				"currentMove"
+			],
+			[
+				"ai",
+				"aiTile"
+			],
+			[
+				"set",
+				"setTile"
+			],
+			[
+				"pla",
+				"playerTile"
+			],
+			[
+				"evalu",
+				"evaluate"
+			],
+			[
+				"evaluate",
+				"evaluateBoard"
+			],
+			[
+				"gam",
+				"gameStateArray"
+			],
+			[
+				"gameM",
+				"gameModeChoice"
+			],
+			[
+				"game",
+				"gameMode"
+			],
+			[
+				"resetB",
+				"resetBoard"
+			],
+			[
+				"seria",
+				"serializeArray	.serializeArray()"
+			],
+			[
+				"new",
+				"newTile"
+			],
+			[
+				"ev",
+				"evaluateBoard"
+			],
+			[
+				"eva",
+				"evaluate"
+			],
+			[
+				"best",
+				"bestMove"
+			],
+			[
+				"gameMo",
+				"gameModeSetting"
+			],
+			[
+				"X",
+				"X_tile"
+			],
+			[
+				"end",
+				"endgame"
+			],
+			[
+				"curr",
+				"currentContext"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"input",
+				"inputFields"
+			],
+			[
+				"curre",
+				"currentContext"
+			],
+			[
+				"di",
+				"difficulty"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"win",
+				"winningStates"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"c",
+				"currentState"
+			],
+			[
+				"bitV",
+				"bitValue"
+			],
+			[
+				"getCu",
+				"getCurrentMoves"
+			],
+			[
+				"eval",
+				"evaluateBoard"
+			],
+			[
+				"getCurrent",
+				"getCurrentTile"
+			],
+			[
+				"getC",
+				"getCurrentTile"
+			],
+			[
+				"currentT",
+				"getCurrentTile"
+			],
+			[
+				"Curr",
+				"currentPlayer"
+			],
+			[
+				"isLon",
+				"isLongerThanAYear"
+			],
+			[
+				"milliseoc",
+				"millisecondsPerMonth"
+			],
+			[
+				"cashDra",
+				"cashDrawer"
+			],
+			[
+				"cashD",
+				"cashDrawer"
+			],
+			[
+				"cash",
+				"cashDrawer"
+			],
+			[
+				"cashd",
+				"cashDrawerIsEmpty"
+			],
+			[
+				"drawer",
+				"drawerObj"
+			],
+			[
+				"animation",
+				"animationFunction"
+			],
+			[
+				"Blank",
+				"BLANK"
+			],
+			[
+				"random",
+				"randomWiki"
+			],
+			[
+				"rand",
+				"randomWiki"
+			],
+			[
+				"ng-bind",
+				"ng-bind-html	AngularJS"
+			],
+			[
+				"pastel",
+				"pastelBlue"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"retur",
+				"returnMeFullofNews"
+			],
+			[
+				"font",
+				"fontBlack"
+			],
+			[
+				"trans",
+				"transparentGrey"
+			],
+			[
+				"dark",
+				"darkGrey"
+			],
+			[
+				"currentUser",
+				"currentUserData"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"searc",
+				"searchTerm"
+			],
+			[
+				"ng-html",
+				"ng-bind-html-unsafe	AngularJS"
+			],
+			[
+				"ng-bind-",
+				"ng-bind-html-unsafe	AngularJS"
+			],
+			[
+				"before",
+				"beforeeach	Before Each"
+			],
+			[
+				"expect",
+				"expect.to.equal"
+			],
+			[
+				"latestEntry",
+				"latestEntryLength"
+			],
+			[
+				"work",
+				"workTimer"
+			],
+			[
+				"toggleTimer",
+				"toggleTimerButton"
+			],
+			[
+				"workt",
+				"workTime"
+			],
+			[
+				"clear",
+				"clearInterval"
+			],
+			[
+				"this",
+				"thisInterval"
+			],
+			[
+				"workTim",
+				"workTime"
+			],
+			[
+				"workTimerDecre",
+				"workTimerDecrementSeconds"
+			],
+			[
+				"workTimerd",
+				"workTimerDecrementMinutes"
+			],
+			[
+				"breakTimerDecre",
+				"breakTimerDecrementSeconds"
+			],
+			[
+				"breakTimerDe",
+				"breakTimerDecrementMinutes"
+			],
+			[
+				"workTimerI",
+				"workTimerIncrementSeconds"
+			],
+			[
+				"workTimerInc",
+				"workTimerIncrementMinutes"
+			],
+			[
+				"workTimer",
+				"workTimer"
+			],
+			[
+				"togg",
+				"toggleTimerButton"
+			],
+			[
+				"tim",
+				"timer"
+			],
+			[
+				"timer",
+				"timerObj"
+			],
+			[
+				"cont",
+				"counterController"
+			],
+			[
+				"incremen",
+				"incrementMinutes"
+			],
+			[
+				"decrement",
+				"decrementMinutes"
+			],
+			[
+				"cou",
+				"counterObj"
+			],
+			[
+				"counter",
+				"counterController"
+			],
+			[
+				"interva",
+				"interval"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 6424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 3564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 2006,
+				"line_ending": "Unix",
+				"name": "_variables.scss"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "tabs",
+		"selected_items":
+		[
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"bibt",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"do",
+				"DevDocs: Search From Input"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"latex",
+				"LaTeXTools: Build cache for LaTeX packages"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: closure"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 321.0,
+		"history":
+		[
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Drive2/ownCloud/Web Projects/simon",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/.tmp",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/app",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/app/scripts",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/app/styles",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/dist"
+	],
+	"file_history":
+	[
+		"/Volumes/Drive2/ownCloud/Web Projects/weatherApp/dist/index.html",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/.gitignore",
+		"/Users/gregsmith/Desktop/checkbox_styles.css",
+		"/Users/gregsmith/Desktop/CSS checkbox styles.html",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/.tmp/styles/main.css",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/bower.json",
+		"/Users/gregsmith/Dropbox/Public/digitaldream_regular_macroman/stylesheet.css",
+		"/Users/gregsmith/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gregsmith/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Drive2/ownCloud/Web Projects/tictactoe/tictactoe.js",
+		"/Volumes/Drive2/ownCloud/Web Projects/simon/index.html",
+		"/Volumes/Drive2/ownCloud/Web Projects/tictactoe/g_tictactoe.html",
+		"/Volumes/Drive2/ownCloud/Web Projects/tictactoe/.gitignore",
+		"/Volumes/Drive2/ownCloud/Web Projects/tictactoe/tictactoe.html",
+		"/Users/gregsmith/Desktop/g_tictactoe.html",
+		"/Users/gregsmith/Desktop/tictactoe.js",
+		"/Volumes/Drive2/ownCloud/Web Projects/tictactoe/jquery.js",
+		"/Volumes/Drive2/ownCloud/Web Projects/tictactoe/tictactoe2.js",
+		"/Users/gregsmith/Desktop/learning_file.tex",
+		"/Users/gregsmith/Desktop/learning_file.bbl",
+		"/Users/gregsmith/Documents/test.bib",
+		"/Volumes/Drive2/ownCloud/Sublime/User/LaTeXTools.sublime-settings",
+		"/Volumes/Drive2/ownCloud/Sublime/User/LaTeX/pagestyle",
+		"/Users/gregsmith/Desktop/test-report.tex",
+		"/usr/local/texlive/2015/texmf-dist/doc/latex/sphdthesis/SPhdThesis.tex",
+		"/Users/gregsmith/.zshrc",
+		"/Applications/TeX/LuaTeX-and-XeTeX/XeTeX-2.tex",
+		"/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty",
+		"/Users/gregsmith/Downloads/assignment_2/assignment_2.tex",
+		"/Users/gregsmith/Desktop/test.tex",
+		"/Users/gregsmith/Desktop/tictactoe.html",
+		"/Users/gregsmith/.bash_profile",
+		"/Users/gregsmith/Downloads/solarized/osx-terminal.app-colors-solarized/README.md",
+		"/Users/gregsmith/Desktop/Bonfire - pairwise.js",
+		"/Volumes/Drive2/ownCloud/Web Projects/Bonfire Pairwise.js",
+		"/Users/gregsmith/Desktop/Bonfire - friendly date ranges.js",
+		"/Users/gregsmith/Desktop/factorialize.js",
+		"/Users/gregsmith/Desktop/Bonfire - no repeats.js",
+		"/Users/gregsmith/Desktop/phone numbers",
+		"/Users/gregsmith/Desktop/Bonfire - inventory update.js",
+		"/Users/gregsmith/Desktop/solution.js",
+		"/Volumes/Drive2/ownCloud/Web Projects/javascriptSkills.js",
+		"/Users/gregsmith/Desktop/Bonfire - exact change.js",
+		"/Users/gregsmith/Desktop/index.html",
+		"/Users/gregsmith/Desktop/Bonfire - Symmetric Difference.js",
+		"/Users/gregsmith/Desktop/Bonfire - Symmetric Difference",
+		"/Users/gregsmith/Downloads/youtube-tutorials-master/tic-toe/state.js",
+		"/Users/gregsmith/Downloads/youtube-tutorials-master/tic-toe/index.html",
+		"/Users/gregsmith/Downloads/youtube-tutorials-master/tic-toe/game.js",
+		"/Users/gregsmith/Dropbox/tictactoe/app/styles/_variables.scss",
+		"/Users/gregsmith/Dropbox/tictactoe/app/styles/main.scss",
+		"/Users/gregsmith/Dropbox/tictactoe/TODO.txt",
+		"/Users/gregsmith/Dropbox/tictactoe/app/index.html",
+		"/Users/gregsmith/Dropbox/tictactoe/app/scripts/main.js",
+		"/Users/gregsmith/Dropbox/tictactoe/app/scripts/gameboard.js",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/scss/main.scss",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/partials/resultsPage.html",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/partials/searchBar.html",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/controllers/resultsController.js",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/index.route.js",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/services/wikiSearch.js",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/controllers/searchController.js",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/partials/untitled",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/bower_components/font-awesome/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/wikipediaViewer/src/app/index.module.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/partials/newsSite.html",
+		"/Users/gregsmith/Dropbox/campernews/src/app/scss/main.scss",
+		"/Users/gregsmith/Dropbox/campernews/src/app/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/campernews/bower_components/font-awesome/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/campernews/src/app/controllers/newsController.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/index.module.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/directives/colorTheNews.js",
+		"/Users/gregsmith/Downloads/d3/d3.js",
+		"/Users/gregsmith/Dropbox/campernews/gulp/scripts.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/services/d3service.js",
+		"/Users/gregsmith/Downloads/d3/d3.min.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/services/NewsService.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/index.route.js",
+		"/Users/gregsmith/Dropbox/campernews/notes.txt",
+		"/Users/gregsmith/Dropbox/campernews/karma.conf.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/index.run.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/index.config.js",
+		"/Users/gregsmith/Dropbox/campernews/src/app/index.constants.js",
+		"/Users/gregsmith/Dropbox/webprojects/Todo.txt",
+		"/Users/gregsmith/Dropbox/webprojects/notes.txt",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/scss/main.scss",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/partials/users.html",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/partials/userList.html",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/TODO.txt",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/controllers/userController.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/controllers/listController.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/initialList.html",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/services/twitchApi.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/index.route.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/bower_components/font-awesome/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/userPage.html",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/index.html",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/services/TwitchConnect.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/index.module.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/twitch.min.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/directives/ListDirective.js",
+		"/Users/gregsmith/Dropbox/webprojects/twitchTVSite/src/app/directives/ListDirective.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/directives/quoteTemplate.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/scss/main.scss",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/index.scss",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/TODO",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/services/wikiSearch.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/controllers/main.controller.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/.tmp/serve/app/index.css",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/bower_components/font-awesome/scss/_variables.scss",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/index.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/services/getQuoteService.js",
+		"/Users/gregsmith/Dropbox/quoteGeneratorBackup.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/index.route.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/main/main.controller.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/main/main.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteApp/src/app/directives/quoteDirective.js",
+		"/Volumes/Drive2/ownCloud/Sublime/User/JavaScript/closure.sublime-snippet",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/src/app/partials/quote.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/src/app/directives/quoteDirective.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/src/app/main/main.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/src/app/index.route.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/src/app/main/main.controller.js",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/.tmp/serve/index.html",
+		"/Users/gregsmith/Dropbox/webprojects/quoteGenerator/src/app/services/quoteService.js"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"https://",
+			"..",
+			"ogg",
+			"yellow",
+			"clearInter",
+			"this",
+			"h6",
+			";\n",
+			"feedback",
+			"feedbackPosition",
+			"400px",
+			"targetClass",
+			"playerMovesLastIndex",
+			"count",
+			"counter",
+			"this",
+			"context",
+			"\n    ",
+			"// border",
+			"playerMovesLength",
+			"this",
+			"outset",
+			"inset",
+			"border: $borderSize",
+			"border",
+			"borderSize",
+			"2px",
+			"inset",
+			"outset",
+			"inset",
+			"this",
+			"10000",
+			"getCompMoves",
+			"background",
+			"410px",
+			"min-",
+			"indentation",
+			"green",
+			"conso",
+			"getBestScore",
+			"conso",
+			"getCurrentTile",
+			"score",
+			"setTile",
+			"difficulty",
+			"this",
+			"reset",
+			"this",
+			"thisBoard",
+			"py",
+			"px",
+			"gameboard",
+			"currentContext",
+			"?</",
+			"jquery",
+			"this.aiPlayer.",
+			"currentContext",
+			".bind(currentContext)",
+			"aiToken",
+			"this",
+			"console.log",
+			"data",
+			"oppSeed",
+			"Seed",
+			"seed",
+			"Seed",
+			"seed",
+			"gameboard",
+			"console.log",
+			"initial",
+			"visible",
+			"currentContext",
+			"bib",
+			"github",
+			"developmen",
+			"path",
+			"metric",
+			"gameStateArray",
+			"context",
+			"difficulty",
+			"difficult",
+			"gameModeSetting",
+			"coords",
+			"winningStates",
+			"getCurrentMoves",
+			"getcurrenttile",
+			"console",
+			"this",
+			"currentPlayer",
+			"100",
+			"80",
+			"120",
+			"X_tile",
+			"newTile",
+			"40",
+			"50",
+			"20",
+			"100",
+			"120",
+			"this",
+			"this.",
+			"Url",
+			"= ",
+			"this.",
+			"gameBoard",
+			"_player",
+			"drawnWidth",
+			"xMovement",
+			"str1",
+			"formatDate",
+			"year",
+			"getDate",
+			"this.month =",
+			"str1",
+			"arr",
+			"num",
+			"2",
+			"x",
+			"curr",
+			"]));",
+			"context.moveTo();\n					context.lineTo();",
+			"Tile",
+			"oy",
+			"ox",
+			"evt",
+			"el",
+			"drawImage",
+			"_c"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"campernews",
+			"'newsSite'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6424,
+								6424
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3605.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 203.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/styles/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2006
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "_variables.scss",
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 266.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 202.0
+	},
+	"pinned_build_system": "",
+	"project": "SPECK.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": false,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
