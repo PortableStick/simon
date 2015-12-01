@@ -1,4 +1,4 @@
-// generated on 2015-11-14 using generator-gulp-webapp 1.0.3
+// generated on 2015-10-12 using generator-gulp-webapp 1.0.3
 import gulp from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import browserSync from 'browser-sync';
@@ -38,7 +38,19 @@ const testLintOptions = {
   }
 };
 
-gulp.task('lint', lint('app/scripts/**/*.js'));
+const lintOptions = {
+  globals: {
+    "$": false
+  },
+  rules: {
+    "no-eval": 0,
+    "no-irregular-whitespace": 0,
+    "no-regex-spaces": 0,
+    "no-extra-boolean-cast": 0
+  }
+};
+
+gulp.task('lint', lint('app/scripts/**/*.js', lintOptions));
 gulp.task('lint:test', lint('test/spec/**/*.js', testLintOptions));
 
 gulp.task('html', ['styles'], () => {
@@ -131,7 +143,8 @@ gulp.task('serve:test', () => {
     server: {
       baseDir: 'test',
       routes: {
-        '/bower_components': 'bower_components'
+        '/bower_components': 'bower_components',
+        '/app': 'app',
       }
     }
   });
@@ -156,7 +169,7 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+gulp.task('build', ['html', 'images', 'fonts', 'extras'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
